@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modal Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="8dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="?android:attr/listDivider"
+        android:layout_marginBottom="6dp"/>
+
+    <EditText
+        android:id="@+id/athleteNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Athlete name"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/sportNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Sport name"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/countryNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Country name"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/performanceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Best performance"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/medalsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="# of medals awarded"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/factsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Interesting facts"
+        android:textSize="16sp"
+        android:minLines="3"
+        android:maxLines="4"
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>

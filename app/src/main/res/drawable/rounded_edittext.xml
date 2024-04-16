@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- Change the color as per your requirement -->
+    <corners android:radius="50dp"/> <!-- This makes the EditText field circular -->
+    <stroke android:color="#000000" android:width="2dp"/> <!-- Optional: If you want a border for your EditText field -->
+</shape>

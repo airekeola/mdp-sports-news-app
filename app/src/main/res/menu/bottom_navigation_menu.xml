@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/news_menu"
+        android:icon="@drawable/baseline_public_24"
+        android:title="@string/news_text" />
+
+    <item
+        android:id="@+id/events_menu"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="@string/events_text" />
+
+    <item
+        android:id="@+id/archives_menu"
+        android:icon="@drawable/baseline_archive_24"
+        android:title="@string/historical_archives" />
+</menu>
